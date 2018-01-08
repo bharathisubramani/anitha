@@ -3,12 +3,19 @@ int main()
 {
 int a;
 scanf("%d",&a);
-if(a>=0)
+if(a==0)
 {
-printf("even number");
+printf("number is zero\n",a);
 }
 else
 {
-printf("odd number");
+  if(a>0)
+  {
+    printf("even number%d",a);
+  }
+  else
+{
+printf("odd number%d",a);
+}
 }
 }
