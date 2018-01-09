@@ -18,4 +18,5 @@ else
 printf("odd number%d",a);
 }
 }
+  return 0;
 }
