@@ -15,4 +15,5 @@ else
 {
 printf("c is greater");
 }
+  return 0;
 }
