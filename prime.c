@@ -9,7 +9,7 @@ for(i=2;i<n;i++)
 if(n%i==0)
 {
 count++;
-}
+}}
 if(count==0)
 {
 printf("prime number");
@@ -17,7 +17,6 @@ printf("prime number");
 else
 {
 printf("not a prime number");
-}
 }
 return 0;
 }
