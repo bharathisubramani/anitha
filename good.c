@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<string.c>
+#include<string.h>
 int main()
 {
 int i,l,flag=0;
@@ -8,4 +8,10 @@ gets(a);
 l=strlen(a);
 for(i=0;i<=l;i++)
 {
-if(a[i]<='a'&&a[i]>='z'
+if(a[i]>='a'&&a[i]<='z'||a[i]>='A'&&a[i]<='Z')
+  flag++;
+}
+  printf("%d",flag);
+  return 0;
+}
+
